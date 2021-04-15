@@ -1,0 +1,104 @@
+<html>
+  <head>
+    <style>
+      body{
+    margin: 0;
+    padding:0;
+    font-family: sans-serif;
+    }
+      .signin{
+    margin: 0;
+    padding:0;
+    font-family: sans-serif;
+    width: 300px;
+    box-shadow: 0 0 3px0 rbga(0,0,0,0.3);
+    background: #fff;
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+    }
+    .signin h1{
+      color:#1c8adb;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+    }
+    .input-box{
+      border-radius: 20px;
+      padding: 10px;
+      border: 1px solid #999;
+      margin: 5px 0;
+      outline: none;
+      width: 100%;
+    }
+    button{
+      color: #fff;
+      width: 100%;
+      padding: 10px;
+      border-radius: 20px;
+      font-size: 15px;
+      margin: 5px 0;
+      outline: none;
+      cursor: pointer;
+      
+    }
+    .input-box:hover{
+      background-color: rgb(145, 145, 202);
+      color: #fff;
+    }
+    .signupbtn:hover{
+      background-color: darkblue;
+      color: #fff;
+    }
+    .ff:hover{
+      background-color: darkblue;
+      color: #fff;
+    }
+    .signupbtn{
+      background-color: #1c8adb;
+      font-weight: 500;
+    }
+    .ff{
+      text-decoration: none;
+    }
+    .hh{
+      margin-top: 20px;
+      width: 80%;
+    }
+    .or{
+      background: #fff;
+      width: 30px;
+      margin:-19px 0 0 124px;
+    }
+    
+    </style>
+  </head>
+  <body>
+    <div class="signin">
+      <h1>Create Acoount</h1>
+      <form>
+        <input class="input-box" placeholder="Full Name " name="name" id="name" /><br>
+          <select class="input-box" id="department" name="department">
+            <option value="" disabled selected hidden>Choose Department</option>
+            <option value="Computer">Computer</option>
+            <option value="Information Technology">Information Technology</option>
+            <option value="Mechanical">Mechanical</option>
+            <option value="Electronic and Communication">Electronic and Communication</option>
+            <option value="Civil">Civil</option>
+            <option value="Electronics">Electronics</option>
+          </select><br>
+          <select class="input-box" id="category" name="category">
+            <option value="" disabled selected hidden>Choose Category</option>
+            <option value="student">Student</option>
+            <option value="teacher">Teacher</option>
+          </select><br>
+        <input class="input-box" placeholder="Username" name="username" id="username" /><br>
+        <input class="input-box" placeholder="Password" name="password" id="password" />
+        <button type="submit" class="signupbtn">Sign Up</button>
+        <hr class="hh">
+        <p class="or" style="text-align: center;">OR</p>
+        <p>Already have an Account? <a href="#" class="ff">Sign In</a></p>
+      </form>
+    </div>
+    
+  </body>
+</html> 
